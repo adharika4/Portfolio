@@ -1,0 +1,79 @@
+/* ================= PROJECTS ================= */
+
+.projects {
+  padding: 5rem 2rem;
+}
+
+.projects__title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.projects__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.projects__card {
+  max-width: 620px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2.5rem;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.projects__name {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.projects__desc {
+  color: #cfd3ff;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+.projects__tech {
+  color: #6c63ff;
+  font-size: 0.9rem;
+}
+
+.projects__footer {
+  margin-top: 1.8rem;
+}
+
+.projects__status {
+  display: inline-block;
+  background: #6c63ff;
+  color: #fff;
+  padding: 0.45rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.projects__links a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #6c63ff;
+  font-weight: 500;
+}
+
+.projects__btn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #6c63ff;
+  cursor: pointer;
+}
+
+/* Light theme */
+body.light-theme .projects__card {
+  background: #f0f0ff;
+}
+
+body.light-theme .projects__desc {
+  color: #444;
+}
