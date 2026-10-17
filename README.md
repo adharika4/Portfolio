@@ -1,49 +1,33 @@
+# Adharika Mahajan — Portfolio
 
-# 🌐 Personal Portfolio Website
+Live website: https://adharika4.github.io/Portfolio/
 
-This is my personal portfolio website built to showcase my skills, projects, education, and experience in Computer Science and Artificial Intelligence.
+Responsive portfolio built with HTML, CSS, JavaScript and locally hosted Poppins fonts. Home, About, Skills, Projects, Achievements and Contact sections include verified resume content, project links and the Sahas Springer publication.
 
-The website is designed with a clean and modern UI, supports dark and light modes, and is fully responsive across devices.
+## Features
 
----
+- Light/dark theme with saved preference
+- Smooth navigation and an accessible mobile menu
+- Project filters and keyboard-accessible detail dialogs
+- Original profile photograph, resume download, LinkedIn and GitHub
+- Contact form with Name, Email and Message, plus email/Gmail/copy-email fallbacks
+- Form validation, sending state, duplicate-submit prevention, timeout/error feedback and preserved messages on failure
+- Responsive layouts, visible keyboard focus and reduced-motion support
 
-## ✨ Features
+## Contact email activation
 
-- Single-page portfolio layout
-- Dark / Light theme toggle
-- Smooth scrolling navigation
-- Projects carousel with multiple project showcases
-- Skills, education timeline, and contact sections
-- Responsive design for mobile and desktop
-- Clean and modular CSS structure
+Messages are forwarded to adharikamahajan@gmail.com using FormSubmit. The first form submission triggers a one-time activation email to the owner; click its activation link before expecting inbox delivery. The service blocked automated setup from the development environment, so delivery is not yet verified. Direct email and Gmail links remain available.
 
----
+## Update and deploy
 
-## 🛠️ Technologies Used
+Edit the root HTML/CSS/JavaScript files and assets, then push to main. This existing repository has GitHub Pages enabled, preserving the URL above. No build step is required. `.nojekyll` enables direct static-file publishing.
 
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla JS)
-- Font Awesome Icons
+## Validation
 
----
+22 mocked DOM-event scenarios pass. Font metadata, assets, links, forms and responsive CSS were checked. Actual browser/mobile rendering and live email delivery remain unverified in the development environment.
 
-## 📂 Sections Included
+## Fonts
 
-- Home
-- About
-- Skills
-- Education
-- Projects
-- Contact
-- Footer
+Poppins is bundled in `assets/fonts/` under the SIL Open Font License; see `OFL.txt` in that directory.
 
----
-
-## 🚀 Getting Started
-
-To run this project locally:
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+The downloadable resume is linked from the public hosted portfolio; the original photograph remains in Git history and is reused by this version.
